@@ -1,0 +1,24 @@
+alquiler de bicicletas
+
+Listar el inventario de bicicletas disponibles
+- Calcular el precio de los alquileres
+- Crear una solicitud de alquiler.
+
+El precio de los alquileres se basa en el
+
+ --tipo de bicicleta alquilada 
+ 
+ --número de días de duración del alquiler. 
+ 
+// En el momento del alquiler, los clientes dicen por cuántos días quieren alquilar la bicicleta y en función de eso se calcula el precio para la solicitud.
+
+- Bicicletas eléctricas:
+precio base multiplicado por el número de días de alquiler.  
+
+- Bicicletas normales:
+ precio base por los primeros 3 días y después el precio base por cada día extra.
+
+- Bicicletas antiguas:
+  precio base por los primeros 5 días y después el precio base por cada día extra.
+
+El precio base es de 10 USD al día, si el alquiler se inicia antes del día 15 de cada mes y de 12 USD al día si se inicia el día 15 o los días posteriores.
